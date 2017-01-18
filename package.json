@@ -1,0 +1,35 @@
+{
+  "name": "omega2-io",
+  "version": "0.0.2",
+  "description": "Onion Omega2 & Omega2+ IO Plugin for Johnny-Five",
+  "main": "lib/omega2",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gunderson/omega2-io"
+  },
+  "keywords": [
+    "firmata",
+    "omega2",
+    "omega",
+    "onion",
+    "johnny-five"
+  ],
+  "author": "Patrick Gunderson <patrick.gunderson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunderson/omega2-io/issues"
+  },
+  "homepage": "https://github.com/gunderson/omega2-io",
+  "devDependencies": {
+    "johnny-five": "^0.10.6",
+    "nodeunit": "^0.9.0",
+    "rewire": "^2.1.0",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "i2c-bus": "^0.11.2"
+  }
+}
