@@ -1,0 +1,17 @@
+{ 
+	"INPUT": 0,
+	"OUTPUT": 1,
+	"ANALOG": 2,
+	"PWM": 3,
+	"SERVO": 4,
+	"SHIFT": 5,
+	"SPI": 5,
+	"I2C": 6,
+	"ONEWIRE": 7,
+	"STEPPER": 8,
+	"SERIAL": 9,
+	"I2S": 11,
+	"PCM": 12,
+	"IGNORE": 80,
+	"UNKNOWN": 16
+}

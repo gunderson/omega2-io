@@ -24,12 +24,8 @@
   },
   "homepage": "https://github.com/gunderson/omega2-io",
   "devDependencies": {
-    "johnny-five": "^0.10.6",
-    "nodeunit": "^0.9.0",
-    "rewire": "^2.1.0",
-    "sinon": "^1.10.3"
+    "johnny-five": "^0.10.6"
   },
   "dependencies": {
-    "i2c-bus": "^0.11.2"
   }
 }

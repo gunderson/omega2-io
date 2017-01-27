@@ -1,32 +1,4 @@
-var rewire = require("rewire");
-var BeagleBone = rewire("../lib/beaglebone");
 var Emitter = require("events").EventEmitter;
-var sinon = require("sinon");
-var b = require('bonescript');
-
-var bStub = {
-  pinMode: function(pin, mode) {},
-  digitalRead: function(pin, handler) {
-    handler(null);
-  },
-  analogRead: function(pin, handler) {
-    handler(null);
-  },
-  digitalWrite: function(pin, value) {},
-  analogWrite: function(pin, value) {},
-  map: b.map
-};
-
-// Stub for the four i2c-bus methods used by beaglebone-io
-var i2cBusStub = {
-  i2cWriteSync: function(addr, length, buffer) {},
-  writeByteSync: function (addr, cmd, byte) {},
-  readI2cBlock: function (addr, cmd, length, buffer, cb) {},
-  i2cRead: function(addr, length, buffer, cb) {}
-};
-
-BeagleBone.__set__("b", bStub);
-BeagleBone.__set__("_i2cBus", i2cBusStub);
 
 function restore(target) {
   for (var prop in target) {
