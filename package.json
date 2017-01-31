@@ -1,6 +1,6 @@
 {
   "name": "omega2-io",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Onion Omega2 & Omega2+ IO Plugin for Johnny-Five",
   "main": "lib/omega2",
   "scripts": {
