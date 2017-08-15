@@ -23,9 +23,10 @@
     "url": "https://github.com/gunderson/omega2-io/issues"
   },
   "homepage": "https://github.com/gunderson/omega2-io",
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  },
   "devDependencies": {
-    "bluebird": "^3.4.7",
     "johnny-five": "^0.10.6"
   }
 }
